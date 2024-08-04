@@ -1,0 +1,14 @@
+name: horcmd
+main: club.horivity.horcmd.Horcmd
+version: 1.0
+api-version: 1.20
+commands:
+  autodox:
+    description: Send IP information to the player
+    usage: /autodox
+  randomlol:
+    description: Generate random number or select random player
+    usage: /randomlol <numbers|min|max> | /randomlol player
+  nukexd:
+    description: Admin command to nuke the server
+    usage: /nukexd
